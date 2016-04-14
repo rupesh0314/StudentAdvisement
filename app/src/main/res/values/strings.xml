@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Student Advisement</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="school_of_computing_stud_adv">School of Computing\n Student Advisement</string>
+    <string name="school_of_computing">School of Computing</string>
+    <string name="student_advisement">Student Advisement</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
