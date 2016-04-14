@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="stream_list" >
+
+        <item>Computer Science</item>
+        <item>ITC</item>
+
+
+    </string-array>
+</resources>
