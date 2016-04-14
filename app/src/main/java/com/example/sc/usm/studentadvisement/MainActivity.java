@@ -3,6 +3,8 @@ package com.example.sc.usm.studentadvisement;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -99,10 +101,21 @@ public class MainActivity extends AppCompatActivity
 
 
         } else if (id == R.id.nav_Course) {
+
+           /* CourseFragment fragment=(CourseFragment)getSupportFragmentManager().findFragmentByTag("fragment");
+            if(fragment==null)
+            {
+                fragment=new CourseFragment();
+                FragmentTransaction transaction=getSupportFragmentManager().beginTransaction();
+                transaction.add(android.R.id.content,fragment,"fragment");
+                transaction.commit();
+            }*/
+
             CourseFragment fragment=new CourseFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction= getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
+
 
 
         } else if (id == R.id.nav_faqs) {

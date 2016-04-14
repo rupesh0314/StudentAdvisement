@@ -1,9 +1,9 @@
 package com.example.sc.usm.studentadvisement;
 
 
-import android.app.ListFragment;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,7 +16,7 @@ import android.widget.Toast;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class CourseFragment extends Fragment, ListFragment {
+public class CourseFragment extends ListFragment{
 
 
     public CourseFragment() {
