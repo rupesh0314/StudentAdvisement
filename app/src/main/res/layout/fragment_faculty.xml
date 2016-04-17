@@ -2,14 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sc.usm.studentadvisement.csFragment">
+    tools:context="com.example.sc.usm.studentadvisement.FacultyFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
     <ListView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/android:list"
-        style="@style/AppTheme" />
-    />
+        android:id="@+id/android:list" />
 </RelativeLayout>

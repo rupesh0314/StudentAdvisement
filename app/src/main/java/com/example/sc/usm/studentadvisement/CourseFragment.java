@@ -1,8 +1,10 @@
 package com.example.sc.usm.studentadvisement;
 
 
+import android.app.FragmentManager;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -36,13 +38,26 @@ public class CourseFragment extends Fragment{
 
         strListiew=getResources().getStringArray(R.array.stream_list);
 
-        ArrayAdapter<String> objAdapter=new ArrayAdapter<String>(this.getActivity(), android.R.layout.simple_expandable_list_item_1,strListiew);
+        ArrayAdapter<String> objAdapter=new ArrayAdapter<String>(this.getActivity(), android.R.layout.simple_list_item_1,strListiew);
         mylistview.setAdapter(objAdapter);
 
         mylistview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getActivity(),"clicked " + strListiew[position].toString(),Toast.LENGTH_SHORT).show();
+                Fragment fragment= new Fragment();
+                android.support.v4.app.FragmentManager fragmentManager = getFragmentManager();
+                switch (position) {
+                    case 0:
+                         fragment=new csFragment();
+                        break;
+                    case 1:
+                        break;
+                }
+
+                FragmentTransaction fragmentTransaction= fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.fragment_container, fragment);
+                fragmentTransaction.commit();
+
             }
         });
         return rootview;

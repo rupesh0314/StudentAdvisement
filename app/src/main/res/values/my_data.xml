@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
-    <string-array name="stream_list" >
+
+    <string-array name="stream_list">
 
         <item>Computer Science</item>
         <item>ITC</item>
 
 
     </string-array>
+
+    <string-array name="cs_list">
+
+        <item>Faculty</item>
+        <item>Help me find course path</item>
+    </string-array>
+
+
 </resources>
