@@ -11,4 +11,244 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="faq">FREQUENTLY ASKED QUESTIONS</string>
+    <string name="que_1">Undergraduate Advising</string>
+    <string name="que_2">Contacting Your Advisor</string>
+    <string name="que_3">Advisement Week</string>
+    <string name="que_4">Registering for Classes</string>
+    <string name="que_5">Changing Your Major</string>
+    <string name="que_6">Adding a Minor in the School of Computing</string>
+    <string name="que_7">Graduation Preparation</string>
+    <string name="que_8">How do I contact my professor?</string>
+    <string name="que_9">How can I find out when my professor office hours are?</string>
+    <string name="que_10">I\'ve emailed my professor but I haven\'t heard back. What should I do? </string>
+    <string name="que_11">How do I know who my advisor is?</string>
+    <string name="que_12">Why do I need to be advised when I alredy know what classes I want to take?</string>
+    <string name="que_13">How will I know when advisement is?</string>
+    <string name="que_14">When can I enroll in classes?</string>
+    <string name="que_15">I\'ve been advised; Why cant\'t I enroll in classes?</string>
+    <string name="que_16">I think I received an unfair grade. Whom can I talk?</string>
+    <string name="que_17">What is the difference between a WP and a WF?</string>
+    <string name="que_18">What does an NA on my transcript mean?</string>
+    <string name="que_19">My incomplete has suddenly turned to a F. What should I do?</string>
+    <string name="que_20">All my classes have been dropped from my schedule. What should I do?</string>
+    <string name="que_21">How do I get into a closed class?</string>
+    <string name="que_22">How do I add or drop a class after the deadline for dropping classes has passed?</string>
+    <string name="que_23">I\'m trying to enroll in classes but SOAR won\'t let me?</string>
+    <string name="que_24">I\'m feeling overwhelmed, dropped and anxious. Who should I talk to?</string>
+    <string name="que_25">I\'m having trouble in on of my classes. How can I get help?</string>
+    <string name="que_26">I have a paper due and I don\'t even know where to start?</string>
+    <string name="que_27">I signed up for an online class and I don\'t know where to start?</string>
+    <string name="que_28">How do I avoid being accused of plagiarism?</string>
+    <string name="que_29">I think I have been unfairly accused of plagiarism. What should I do?</string>
+
+
+    <string name="que1_content">All University of Southern Mississippi students are required to meet with an academic advisor in
+
+their department each semester prior to enrolling in classes.  Your advisor will look over your
+
+degree plan, and work with you to ensure you\'re on track for graduating with your degree. 
+
+Advisors will also help you to make sure that any credits you have from another university or
+
+community college are transferred to Southern Miss, and can help you with probation or
+
+suspension paperwork.</string>
+    <string name="que2_content">Your advisor is listed on your SOAR Student Center page. If you do not have an advisor listed,
+
+or you would like to change your advisor, please call the School of Computing office at 601-266-
+
+4949 and we will adjust your official advisor assignment in</string>
+    <string name="que3_content">The week before advising begins, the School of Computing office will post the appointment
+
+schedule book on the front desk for sign-up availability. You must come by in person and sign
+
+up.</string>
+    <string name="que4_content">After you have been advised, your advisor will give you a form with the list of classes you\'ve
+
+discussed.  You\'ll bring this form to the School of Computing office, and we will remove the
+
+advisement hold from your account.  While you can pre-register for your classes in SOAR even
+
+if you haven\'t been advised, your classes will not be official until your advisement hold is lifted
+
+and will be dropped the last day of the semester.</string>
+    <string name="que5_content">If you\'d like to change your major to one of our School of Computing programs, welcome!
+
+Please visit our office in TEC 214 and we will help you get advised and complete the Change of
+
+Major form. The advisor will also sign your form and we will take it for final processing. Within
+
+a week or so, your new major (and a new advisor) should be listed on your SOAR account.</string>
+    <string name="que6_content">To add a minor in The School of Computing, please visit our office in TEC 214 and we will help
+
+you get advised and complete the Change of Major form. Within a week, your minor should be
+
+listed in SOAR.  A minor requires 18 hours in the minor area at the 300 or 400 level, and you are
+
+not required to meet an advisor to minor in one of the areas (but, advisement is suggested).  If
+
+you\'d like advisement on your minor, please contact our office in TEC 214.</string>
+    <string name="que7_content">Your journey is near completion. For all questions regarding graduation please go to: Graduation
+
+Preparation.</string>
+    <string name="que8_content">The best and easiest way to contact any of the School of Computing instructors is by email. Click
+
+here on the university\'s people directory for email addresses and office phone numbers for the
+
+instructors. Please allow up to 48 hours for a response. You can also drop by your professor\'s
+
+office during his/her office hours, which are listed on your syllabus and contact information
+
+sheets are also available in our TEC 214 main office.  If your professor is a graduate instructor or
+
+an adjunct, he/she will not have a phone in the department and is contactable by email or in
+
+person during office hours only. If you are trying to contact your instructor in an online class,
+
+email or Blackboard are your only options. For email addresses of faculty in other
+
+departments, click here for the university\'s police directory </string>
+    <string name="que9_content">Your professor’s office hours should be listed on his or her office door and on your syllabus,
+
+which is your first and best resource for information about the class. Contact information sheets
+
+are also available in our TEC 214 main office.  If you are taking an online class, your professor
+
+will not hold office hours and can be contacted by e-mail or Blackboard only.</string>
+    <string name="que10_content">Please give your instructors 48 hours to respond to your emails. They may be getting emails
+
+from many, many students, and responding as quickly as they can in the order in which they
+
+received them. If it has been 48 hours and you still haven’t heard, please send the e-mail again,
+
+but copy it to the School of Computing department by typing Sherry.Smith@usm.edu in the cc:
+
+line. This will send a copy to the department undergraduate administrative assistant, who will
+
+make sure it gets to the instructor.</string>
+    <string name="que11_content">Your advisor will be listed on your SOAR Student Center page.
+        If you do not have an advisor listed, please e-mail the School of Computing department
+        undergraduate administrative assistant, Sherry.Smith@usm.edu and we will adjust your information in SOAR.</string>
+
+<string name="que12_content">Your advisor\'s job is to look at your transcript and advise
+    you which classes you need to take to graduate in four years with the degree of your choice.
+    If you already know the classes you need to take, think of advising as a free degree audit,
+    a double-check to make sure you don\'t find yourself missing credits you need when you\'re ready to graduate.
+    Even if you are absolutely, positively sure you know what you want to take, advisement is a good
+    chance to meet the faculty, who might have interesting suggestions for classes you might want to take in the future.</string>
+<string name="que13_content">Advisement dates are listed in the Academic Calendar. You will also see posters
+    all over the TEC building and receive notice over the School of Computing listserve. Your advisor may also
+    contact you via your USM email address to let you know when he or she will be available during advisement,
+    and your advisor\'s office phone number is listed on your SOAR page.</string>
+    <string name="que14_content">After you have been advised, please allow your advisor or the office 24 hours
+        to check the eligible-to-enroll box on your account, and then check your Student Center for your
+        enrollment appointment. General enrollment dates can be found in the Academic Calendar.</string>
+    <string name="que15_content">There are a number of reasons that you might be blocked for enrollment.
+        It might be that your eligible-to-enroll box has not yet been checked, or it might be that
+        there is a hold on your account. A hold on your account could be the result of an unpaid bill,
+        a required 099 enrollment that has not been fulfilled, or a hold from the athletic department
+        if you are an athlete. You should be able to tell from your Student Center what the problem is by
+        clicking on the Do-Not-Enter sign, but if you have any problems, please call the School of Computing
+        office at 266-4949 and we will happily check your account to see what has gone wrong and direct you
+        to the appropriate person to help you get things sorted out.</string>
+    <string name="que16_content">The first person you should talk to is your instructor. Take your
+        exam or your paper to your instructor\'s office during his or her office hours to discuss the assignment.
+        If you still feel that your grade was unfair, you can make an appointment to talk to the Director of
+        the School of Computing, Dr. Andrew Sung.  He will talk to you about your situation, and about the
+        grade appeal process. To review the grade appeal process on your own, please click here to
+        download a .pdf from USM\'S Student Handbook.</string>
+    <string name="que17_content"> A “WP” (withdraw passing) means that you are leaving the class in good standing.
+        It will not count against your GPA, although it will remain on your transcript if you are dropping
+        the class after the deadline to withdraw without academic penalty. (This deadline will be listed in
+        the Academic Calendar. A “WF” means that you are leaving the class failing, and it will count as an “F” in your GPA.
+        The decision whether you get a “WP” or a “WF” is based on your performance in the class and is at
+        the sole discretion of the instructor.</string>
+    <string name="que18_content">“NA” means “not attending” and it is given to students who sign up for a class but don\'t attend it.
+        “NAs” count as “Fs” in your GPA, and you will also be charged for the class, as financial aid will not pay for
+        a class that you haven\'t attended. Check your schedule at the beginning of the semester and make sure that all
+        the classes are ones you plan to attend. If you don\'t plan to go, drop the class while you still can on SOAR,
+        and if it is past the deadline, see procedures for dropping a class after the deadline. If you feel
+        you have been given an “NA” in error, please contact your instructor.</string>
+    <string name="que19_content">Incompletes only stay on your transcript for one semester. If you have not completed
+        your work at the end of the following semester (not including summer), the “I” disappears and is replaced
+        with an “F.” If this has happened to you, contact the instructor of the class right away. It is possible
+        that he/she will still allow you to finish the work you are missing and will change your grade once your work is graded.
+        This option is at the sole discretion of the instructor, and you must contact him/her to find out whether or not
+        he/she would be willing to accept work a semester or more late.</string>
+    <string name="que20_content">If your classes were there one day and gone the next,
+        they were most likely dropped due to lack of payment. Call the business office
+        at 601-266-4137 to find out how you can fix the situation. Once you have paid the fees,
+        if it is past the deadline for you to add your classes back yourself on SOAR, you must use
+        the Special Permissions button in your SOAR account.
+        IMPORTANT: Keep attending all your classes. If you are taking an online class,
+        email your instructor and let him/her know that you have been dropped but will
+        log back in as soon as you are reinstated.</string>
+    <string name="que21_content">You will need to contact the instructor for the class in which you wish to enroll.
+        If they allow the enrollment they will contact the School of Computing office so that we can do
+        a special enrollment override.</string>
+    <string name="que22_content">Please go to: http://www.usm.edu/sites/default/files/groups/office-registrar/images/
+        onlinepermissiontoaddafterthedeadlinefinal.pdf</string>
+    <string name="que23_content">There are three reasons that you might not be able to register:
+
+    1. Your window is not open. To check when your SOAR window will be open, look on your student center page for enrollment dates.
+    2. You have not been advised. Only your advisor (or the School of Computing office with permission from your advisor)
+        can click your Eligible To Enroll button. Please contact your advisor and make an appointment.
+    3. You have a hold on your account. To check to see if you have a hold, look on your student services
+        page for a Do-Not-Enter sign. Clicking this will tell you the reason for the hold. If it is financial,
+        please contact business services at 266-4774. If you are on probation continued or suspension,
+        you will need to talk to your advisor  and sign a contract detailing your plans for improving your grades.
+</string>
+    <string name="que24_content">If you need someone to talk to, Student Counseling Services is the place to go.
+        You can visit their web site or call them during business hours at (601) 266-4829.
+        If it\'s after 5:00pm or on a weekend and you need to talk to someone right away, please call 601-606-HELP (4357).</string>
+    <string name="que25_content">Your first resource is your instructor. Instructors hold office hours each
+        week specifically to help students who are having trouble. They will be happy to answer any questions
+        you have about the lecture or to go over assignments and suggest areas for improvement.
+        If you\'re having trouble with your writing, another resource is the Writing Center, located in Cook Library
+        right next to Starbucks. The Writing Center has tutors who will talk with you about your writing project
+        and help you figure out what you want to say and how you can say it most effectively.
+        To make an appointment at the Writing Center, please call 601-266-4821.
+</string>
+    <string name="que26_content">The Writing Center in Cook Library is a great resource for helping you sort out your thoughts
+        and get started on your paper, no matter what class it\'s for.  To make an appointment to talk with a tutor,
+        please call 601-266-4821.</string>
+    <string name="que27_content">The Learning Enhancement Center\'s Student Help Page will get you started with everything
+        from how to log in to Blackboard to how to turn in assignments.</string>
+    <string name="que28_content">The best way to avoid being accused of plagiarism is not to plagiarize.
+        Fortunately, avoiding plagiarism is fairly simple: if you use phrases or sentences that you did not write yourself,
+        put them in quotation marks and cite your source. If you copy anything and paste it into your paper,
+        use quotation marks and cite your source. If you copy something but change the wording and the order,
+        this is paraphrasing. You won\'t need to use quotation marks, but you still need to cite your source.
+        If you read a great argument that you want to use in your own paper, cite your source.
+        If you want to use a few sentences or a paragraph from a paper you wrote for another class,
+        you still need to use quotation marks and cite yourself and your previous paper as the source.
+If you cite your sources and use quotation marks when necessary, you will not be accused of plagiarism.
+If you use another person\'s writing without citing the source, you will be caught. The Southern Miss instructors
+        subscribe to a service which, when your paper is entered, will compare it with sources all over the internet,
+        published books and articles, papers from paper mills, and any student papers that have ever been submitted to it before.
+        If the service finds parts of your paper that were copied from a source, they will provide a link to the source,
+        so your paper and the source can be compared side by side. It is never, ever worth the risk.
+        If you run out of time to write a paper, it is much better to ask for an extension or even to submit
+        what you have than to plagiarize. If you fail a paper, you have an “F” on one paper,
+        and still have time to bring up your grade or withdraw passing from the class. If you plagiarize,
+        you may fail the entire course, or if you attempt to withdraw, you will withdraw failing,
+        which counts as an “F” in your GPA. Don\'t risk it.
+If you have questions about whether something constitutes plagiarism or are unsure how to cite the source properly,
+        just ask your instructor.  He/she will be happy to review it with you, and probably very glad that you asked.
+</string>
+    <string name="que29_content">If you believe you have been unfairly accused of plagiarism,
+    you should talk to your instructor as soon as you can to find out why it is that he/she feels you have plagiarized.
+    If you are unable to resolve the issue with your instructor, you may make an appointment with the Director of the department.
+    He will talk to you, and to your instructor, about your situation and about the grade appeal process.
+    To review the grade appeal process on your own, please click here to see the relevant information from
+    USM\'S Student Handbook. Please note that you must make a good-faith effort to work things out with
+    your instructor before talking to the Director, because if you have not, the Director will refer you back to the instructor.
+    If you are unable to resolve things with the Director, you may appeal your grade before a university committee.
+    </string>
+
+
+
 </resources>

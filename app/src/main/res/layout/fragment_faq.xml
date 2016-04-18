@@ -1,14 +1,690 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sc.usm.studentadvisement.FaqFragment">
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
 
-    <!-- TODO: Update blank fragment layout -->
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer" />
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sc.usm.studentadvisement.FaqFragment"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:contextClickable="false"
+    android:padding="6dp"
+    style="@style/AppTheme"
+    android:nestedScrollingEnabled="true">
+
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="90dp"
-        android:text="@string/hello_blank_fragment"
-        android:layout_gravity="center" />
+        android:layout_height="wrap_content"
+        android:id="@+id/que_1"
+        android:text="@string/que_1"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que">
 
-</FrameLayout>
+
+    </TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+        android:id="@+id/separator"
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_1_content"
+        android:text="@string/que1_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_2"
+        android:text="@string/que_2"
+        android:clickable="true"
+        style="@style/faq_que"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_2_content"
+        android:text="@string/que2_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_3"
+        android:text="@string/que_3"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_3_content"
+        android:text="@string/que3_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_4"
+        android:text="@string/que_4"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_4_content"
+        android:text="@string/que4_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_5"
+        android:text="@string/que_5"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_5_content"
+        android:text="@string/que5_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_6"
+        android:text="@string/que_6"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_6_content"
+        android:text="@string/que6_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_7"
+        android:text="@string/que_7"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_7_content"
+        android:text="@string/que7_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_8"
+        android:text="@string/que_8"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_8_content"
+        android:text="@string/que8_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_9"
+        android:text="@string/que_9"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_9_content"
+        android:text="@string/que9_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_10"
+        android:text="@string/que_10"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_10_content"
+        android:text="@string/que10_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_11"
+        android:text="@string/que_11"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_11_content"
+        android:text="@string/que11_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_12"
+        android:text="@string/que_12"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_12_content"
+        android:text="@string/que12_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_13"
+        android:text="@string/que_13"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_13_content"
+        android:text="@string/que13_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_14"
+        android:text="@string/que_14"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_14_content"
+        android:text="@string/que14_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_15"
+        android:text="@string/que_15"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_15_content"
+        android:text="@string/que15_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_16"
+        android:text="@string/que_16"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_16_content"
+        android:text="@string/que16_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_17"
+        android:text="@string/que_17"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_17_content"
+        android:text="@string/que17_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_18"
+        android:text="@string/que_18"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_18_content"
+        android:text="@string/que18_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_19"
+        android:text="@string/que_19"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_19_content"
+        android:text="@string/que19_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_20"
+        android:text="@string/que_20"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_20_content"
+        android:text="@string/que20_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_21"
+        android:text="@string/que_21"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_21_content"
+        android:text="@string/que21_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_22"
+        android:text="@string/que_22"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_22_content"
+        android:text="@string/que22_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_23"
+        android:text="@string/que_23"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_23_content"
+        android:text="@string/que23_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_24"
+        android:text="@string/que_24"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_24_content"
+        android:text="@string/que24_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_25"
+        android:text="@string/que_25"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_25_content"
+        android:text="@string/que25_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_26"
+        android:text="@string/que_26"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_26_content"
+        android:text="@string/que26_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_27"
+        android:text="@string/que_27"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_27_content"
+        android:text="@string/que27_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_28"
+        android:text="@string/que_28"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_28_content"
+        android:text="@string/que28_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/que_29"
+        android:text="@string/que_29"
+        android:clickable="true"
+        android:onClick="toggle_contents"
+        style="@style/faq_que"></TextView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+
+        android:visibility="visible"
+        android:background="@android:color/darker_gray" />
+    <!--content to hide/show -->
+    <TextView
+        android:id="@+id/que_29_content"
+        android:text="@string/que29_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/faq_soln" />
+</LinearLayout>
+    </ScrollView>
+</android.support.v4.widget.DrawerLayout>

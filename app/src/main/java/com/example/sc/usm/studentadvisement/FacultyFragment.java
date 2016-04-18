@@ -1,13 +1,16 @@
 package com.example.sc.usm.studentadvisement;
 
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 import android.widget.SimpleAdapter;
-import android.widget.Toast;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -87,7 +90,7 @@ public class FacultyFragment extends ListFragment {
 
         HashMap<String, String> map = new HashMap<String, String>();
 
-        for (int i = 0; i <faculty_list.length; i++) {
+        for (int i = 0; i < faculty_list.length; i++) {
             map = new HashMap<String, String>();
             map.put("faculty_list", faculty_list[i]);
             map.put("faculty_images", Integer.toString(faculty_images[i]));
@@ -113,13 +116,19 @@ public class FacultyFragment extends ListFragment {
         getListView().setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getActivity(), data.get(position).get("name"), Toast.LENGTH_SHORT).show();
+                Fragment fragment = new faculty_detail();
+                Bundle args=new Bundle();
+                args.putInt("position",position);
+                fragment.setArguments(args);
+                //Toast.makeText(getActivity(), data.get(position).get("faculty_list"), Toast.LENGTH_SHORT).show();
 
+
+                FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.fragment_container, fragment);
+                fragmentTransaction.commit();
             }
 
-            // FragmentTransaction fragmentTransaction= getActivity().getSupportFragmentManager().beginTransaction();
-            // fragmentTransaction.replace(R.id.fragment_container, fragment);
-            //fragmentTransaction.commit();
+
         });
 
     }

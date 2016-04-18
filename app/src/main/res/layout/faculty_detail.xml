@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/faculty_detail_image"
+            android:layout_marginTop="34dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="53dp"
+            android:layout_marginStart="53dp"
+            android:paddingBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/faculty_detail_name"
+            android:layout_marginTop="11dp"
+            android:layout_below="@+id/faculty_detail_image"
+            android:layout_alignLeft="@+id/faculty_detail_image"
+            android:layout_alignStart="@+id/faculty_detail_image"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/faculty_detail_phone_tag"
+            android:layout_below="@+id/faculty_detail_name"
+            android:layout_alignLeft="@+id/faculty_detail_name"
+            android:layout_alignStart="@+id/faculty_detail_name"
+            android:text="Phone: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/faculty_detail_phone"
+            android:layout_below="@+id/faculty_detail_name"
+            android:layout_toRightOf="@+id/faculty_detail_phone_tag"
+            android:layout_toEndOf="@+id/faculty_detail_phone_tag" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/faculty_detail_email_tag"
+            android:layout_below="@+id/faculty_detail_phone_tag"
+            android:layout_alignLeft="@+id/faculty_detail_phone_tag"
+            android:layout_alignStart="@+id/faculty_detail_phone_tag"
+            android:text="E-mail: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:id="@+id/faculty_detail_email"
+            android:layout_below="@+id/faculty_detail_phone"
+            android:layout_toRightOf="@+id/faculty_detail_email_tag"
+            android:layout_toEndOf="@+id/faculty_detail_email_tag" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/office_number_tag"
+            android:text="Office: "
+            android:layout_below="@+id/faculty_detail_email"
+            android:layout_alignLeft="@+id/faculty_detail_phone_tag"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/office_number"
+            android:layout_below="@+id/faculty_detail_email_tag"
+            android:layout_toRightOf="@+id/office_number_tag"
+            android:layout_toEndOf="@+id/office_number_tag" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Office Hours:"
+            android:textColor="#595959"
+            android:id="@+id/office_hour"
+            android:layout_below="@+id/office_number"
+            android:layout_alignLeft="@+id/faculty_detail_phone_tag"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mon  : "
+            android:textColor="#595959"
+            android:id="@+id/hours_mon_tag"
+            android:layout_below="@+id/office_hour"
+            android:layout_alignLeft="@+id/faculty_detail_phone_tag"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hours_mon"
+            android:layout_alignBottom="@+id/hours_mon_tag"
+            android:layout_toRightOf="@+id/hours_mon_tag"
+            android:layout_toEndOf="@+id/hours_mon_tag" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tue   : "
+            android:textColor="#595959"
+            android:id="@+id/hours_tue_tag"
+            android:layout_below="@+id/hours_mon_tag"
+            android:layout_alignLeft="@+id/faculty_detail_phone_tag"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hours_tue"
+            android:layout_alignBottom="@+id/hours_tue_tag"
+            android:layout_toRightOf="@+id/hours_tue_tag"
+            android:layout_toEndOf="@+id/hours_tue_tag" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wed  : "
+            android:textColor="#595959"
+            android:id="@+id/hours_wed_tag"
+            android:layout_below="@+id/hours_tue_tag"
+            android:layout_alignLeft="@+id/faculty_detail_phone_tag"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hours_wed"
+            android:layout_alignBottom="@+id/hours_wed_tag"
+            android:layout_toRightOf="@+id/hours_wed_tag"
+            android:layout_toEndOf="@+id/hours_wed_tag" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thu   :"
+            android:textColor="#595959"
+            android:id="@+id/hours_thu_tag"
+            android:layout_below="@+id/hours_wed_tag"
+            android:layout_alignLeft="@+id/faculty_detail_phone_tag"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hours_thu"
+            android:layout_alignBottom="@+id/hours_thu_tag"
+            android:layout_toRightOf="@+id/hours_thu_tag"
+            android:layout_toEndOf="@+id/hours_thu_tag" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fri     : "
+            android:textColor="#595959"
+            android:id="@+id/hours_fri_tag"
+            android:textStyle="bold"
+            android:layout_below="@+id/hours_thu_tag"
+            android:layout_toLeftOf="@+id/hours_mon"
+            android:layout_toStartOf="@+id/hours_mon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hours_fri"
+            android:layout_alignBottom="@+id/hours_fri_tag"
+            android:layout_toRightOf="@+id/hours_fri_tag"
+            android:layout_toEndOf="@+id/hours_fri_tag" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,5 +1,7 @@
 package com.example.sc.usm.studentadvisement;
 
+import android.content.Context;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -25,6 +27,7 @@ public class MainActivity extends AppCompatActivity
 
     NavigationView navigationView=null;
     Toolbar toolbar=null;
+    private Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -132,10 +135,14 @@ public class MainActivity extends AppCompatActivity
 
 
         } else if (id == R.id.nav_faqs) {
-            FaqFragment fragment=new FaqFragment();
+            Intent intent=new Intent(this,FaqFragment.class);
+            startActivity(intent);
+
+            /*FaqFragment fragment=new FaqFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction= getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container,fragment);
             fragmentTransaction.commit();
+            */
 
 
         } else if (id == R.id.nav_about) {
