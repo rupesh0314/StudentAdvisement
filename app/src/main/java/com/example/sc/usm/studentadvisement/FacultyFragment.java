@@ -19,6 +19,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import com.example.sc.usm.studentadvisement.R;
 import java.util.List;
 
 
@@ -66,7 +67,7 @@ public class FacultyFragment extends ListFragment {
             R.drawable.sean,
                     R.drawable.beddhumurali,
             R.drawable.rahaim,
-            R.drawable.tom_rishel,
+            R.drawable.tomrishel,
                     R.drawable.kellyrobinson,
             R.drawable.jonathansun,
             R.drawable.andrewhsung,
@@ -81,7 +82,7 @@ public class FacultyFragment extends ListFragment {
 
     };
 
-    ArrayList<HashMap<String,String>> data;
+    ArrayList<HashMap<String,String>> data=new ArrayList<HashMap<String, String>>();
     SimpleAdapter simpleAdapter;
 
 
